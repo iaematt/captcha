@@ -1,0 +1,28 @@
+{
+    "name": "iaematt/captcha",
+    "description": "Very simple captcha for forms.",
+    "keywords": [
+        "Captcha",
+        "Forms",
+        "iaematt"
+    ],
+    "homepage": "https://github.com/iaematt/captcha",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matheus Bastos",
+            "email": "matheusbastos@outlook.com",
+            "role": "Developer",
+            "homepage": "https://iaematt.vercel.app"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "iaematt\\Captcha\\": "source/"
+        }
+    },
+    "require": {
+        "php": "^7.3"
+    }
+}
